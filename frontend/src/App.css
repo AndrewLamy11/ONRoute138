@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #893823;
+  color: white;
+}
+
+.NavBar {
+  height: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #672a1b;
+}
+
+.NavLeftSide {
+  font-size: 1.5rem;
+  margin: auto 1rem;
+}
+
+.NavbarItems ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.NavbarItems ul li {
+  list-style: none;
+}
+
+.NavbarItems ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+}
+
+.NavbarItems li:hover {
+  background-color: #893823;
+}
+
+.order-box {
+  background: rgb(202, 202, 202);
+  padding: 20px;
+  border-radius: 15px;
+  border: 3px solid black;
+  color: black;
+  position: absolute;
+  top: 220px;
+  left: 15px;
+  width: 625px;
+  height: 450px;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #000000;
+}
+
+.order {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.in-progress {
+  color: darkgoldenrod;
+}
+
+.complete {
+  color: darkgreen;
+}
+
+br {
+  display: block;
+  content: "";
+  margin: 20px 0;
+}
+
+.order-box a {
+  text-decoration: none;
+}
+
+.OrderHeader {
+  text-align: center;
+}
+
+.OrderHeader h2 {
+  color: white;
+}
+
+.order-box-header {
+  text-align: center;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.item-label {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.item-value {
+  color: rgb(0, 0, 0);
+}
+
+.order-box br {
+  display: block;
+  content: "";
+  margin: 40px 0;
+}
+
+.OrderHeader {
+  font-size: 20px;
+}
+
+.new-order-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(202, 202, 202);
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 200px;
+  height: 100px;
+}
+
+.new-order-button:hover {
+  background-color: #929292;
+}
+
+.CenterPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  color: white;
+}
