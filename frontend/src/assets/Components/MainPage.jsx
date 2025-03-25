@@ -2,8 +2,8 @@ import { jwtDecode } from "jwt-decode";
 import Cookies from "js-cookie";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Navbar from "./Navbar";
-import NewOrderButton from "./NewOrderButton";
+import Navbar from "./Navbar.jsx";
+import NewOrderButton from "./NewOrderButton.jsx";
 import "../../App.css";
 
 export default function PrivatePage() {

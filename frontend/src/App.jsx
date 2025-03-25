@@ -7,6 +7,7 @@ import MainPage from "./assets/Components/MainPage";
 import NotAuthorized from "./assets/Components/NotAuthorized";
 import NotFoundPage from "./assets/Components/NotFoundPage";
 import PrivateRoute from "./assets/Components/PrivateRoute";
+import NewOrderForm from "./assets/Components/NewOrderForm";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Router>
         <Routes>
           <Route element={<PrivateRoute />}>
-            <Route path="/main" element={<MainPage />} />
+            <Route path="/main" element={<NewOrderForm />} />
           </Route>
           <Route path="/" element={<LandingPage />} />
           <Route path="/create-user" element={<CreateUserPage />} />
