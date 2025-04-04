@@ -6,9 +6,13 @@ const mongoose = require("mongoose");
 const User = require("./models/User");
 const TruckUser = require("./models/TruckUser");
 require("dotenv").config();
-const { DB_URI, JWT_SECRET } = process.env;
+const TruckCompany = require("./models/TruckCompany"); // <-- Added model import
+
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
+const DB_URI =
+  "mongodb+srv://emirmohit17:mohitsingh720@comp1013.pdsgs0v.mongodb.net/route138?retryWrites=true&w=majority&appName=Comp1013";
+JWT_SECRET = "MySuperSecretKey123";
 
 server.use(cors());
 server.use(express.json());
@@ -102,3 +106,36 @@ server.post("/", (request, response) => {
     });
   });
 });
+
+//Do NOT UNCOMMENT THE CODE BELOW
+// server.post("/", async (request, response) => {
+//   const { username, password } = request.body;
+//   const jwtToken = jwt.sign({ id: username }, JWT_SECRET);
+
+//   try {
+//     let user = await User.findOne({ username });
+
+//     if (!user) {
+//       user = await TruckUser.findOne({ username });
+//     }
+
+//     if (!user) {
+//       return response.status(404).send({ message: "User not found" });
+//     }
+//     const isMatch = await bcrypt.compare(password, user.password);
+//     if (!isMatch) {
+//       return response
+//         .status(401)
+//         .send({ message: "Incorrect username or password" });
+//     }
+//     return response.send({
+//       message: "User authenticated",
+//       token: jwtToken,
+//     });
+//   } catch (error) {
+//     console.error(error);
+//     return response
+//       .status(500)
+//       .send({ message: "An error occurred during login" });
+//   }
+// });

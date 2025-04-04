@@ -1,0 +1,281 @@
+"REF_DATE,GEO,DGUID,Fleet and equipment statistics,UOM,UOM_ID,SCALAR_FACTOR,SCALAR_ID,VECTOR,COORDINATE,VALUE,STATUS,SYMBOL,TERMINATED,DECIMALS,Truck Company",Truck Location
+"2009,Canada,2016A000011124,Total powered units,Number,223,units ,0,v54328948,1.1,176739,,,,0,Titanium Transportation Group",St. Catharines
+"2009,Canada,2016A000011124,Straight trucks,Number,223,units ,0,v54328949,1.2,42165,,,,0,Canada Cartage",Whitby
+"2009,Canada,2016A000011124,Road tractors,Number,223,units ,0,v54328950,1.3,114199,,,,0,Trimac Transportation",Windsor
+"2009,Canada,2016A000011124,All other powered units,Number,223,units ,0,v54328951,1.4,20386,,,,0,Erb Transport",Whitby
+"2009,Canada,2016A000011124,Total non-powered units,Number,223,units ,0,v54328952,1.5,292344,,,,0,Challenger Motor Freight",Barrie
+"2009,Canada,2016A000011124,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54328953,1.6,155230,,,,0,TST-CF Express",St. Catharines
+"2009,Canada,2016A000011124,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54328954,1.7,36047,,,,0,TST-CF Express",Guelph
+"2009,Canada,2016A000011124,Flat decks,Number,223,units ,0,v54328955,1.8,40782,,,,0,XTL Transport",Whitby
+"2009,Canada,2016A000011124,Tanks,Number,223,units ,0,v54328956,1.9,21348,,,,0,TST-CF Express",Markham
+"2009,Canada,2016A000011124,All other non-powered units,Number,223,units ,0,v54328957,1.1,38937,,,,0,Purolator",Brampton
+"2009,Newfoundland and Labrador,2016A000210,Total powered units,Number,223,units ,0,v54328959,2.1,1412,,,,0,Bison Transport",Toronto
+"2009,Newfoundland and Labrador,2016A000210,Straight trucks,Number,223,units ,0,v54328960,2.2,215,,,,0,Manitoulin Transport",Barrie
+"2009,Newfoundland and Labrador,2016A000210,Road tractors,Number,223,units ,0,v54328961,2.3,903,,,,0,Purolator",Barrie
+"2009,Newfoundland and Labrador,2016A000210,All other powered units,Number,223,units ,0,v54328962,2.4,294,,,,0,Erb Transport",Whitby
+"2009,Newfoundland and Labrador,2016A000210,Total non-powered units,Number,223,units ,0,v54328963,2.5,2435,,,,0,Bison Transport",Barrie
+"2009,Newfoundland and Labrador,2016A000210,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54328964,2.6,701,,,,0,Gardewine",St. Catharines
+"2009,Newfoundland and Labrador,2016A000210,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54328965,2.7,334,,,,0,TransForce",Guelph
+"2009,Newfoundland and Labrador,2016A000210,Flat decks,Number,223,units ,0,v54328966,2.8,842,,,,0,Speedy Transport Group",Cambridge
+"2009,Newfoundland and Labrador,2016A000210,Tanks,Number,223,units ,0,v54328967,2.9,166,,,,0,Speedy Transport Group",Toronto
+"2009,Newfoundland and Labrador,2016A000210,All other non-powered units,Number,223,units ,0,v54328968,2.1,392,,,,0,Bison Transport",Sudbury
+"2009,Prince Edward Island,2016A000211,Total powered units,Number,223,units ,0,v54328970,3.1,557,,,,0,Fastfrate Group",St. Catharines
+"2009,Prince Edward Island,2016A000211,Straight trucks,Number,223,units ,0,v54328971,3.2,140,,,,0,Speedy Transport Group",London
+"2009,Prince Edward Island,2016A000211,Road tractors,Number,223,units ,0,v54328972,3.3,353,,,,0,Laidlaw Carriers",Brampton
+"2009,Prince Edward Island,2016A000211,All other powered units,Number,223,units ,0,v54328973,3.4,63,,,,0,Bison Transport",Barrie
+"2009,Prince Edward Island,2016A000211,Total non-powered units,Number,223,units ,0,v54328974,3.5,836,,,,0,Bison Transport",Burlington
+"2009,Prince Edward Island,2016A000211,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54328975,3.6,210,,,,0,TST-CF Express",London
+"2009,Prince Edward Island,2016A000211,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54328976,3.7,152,,,,0,Challenger Motor Freight",London
+"2009,Prince Edward Island,2016A000211,Flat decks,Number,223,units ,0,v54328977,3.8,167,,,,0,Titanium Transportation Group",Markham
+"2009,Prince Edward Island,2016A000211,Tanks,Number,223,units ,0,v54328978,3.9,15,,,,0,Kriska Transportation",Vaughan
+"2009,Prince Edward Island,2016A000211,All other non-powered units,Number,223,units ,0,v54328979,3.1,292,,,,0,Canada Cartage",Cambridge
+"2009,New Brunswick,2016A000213,Total powered units,Number,223,units ,0,v54328981,4.1,6464,,,,0,Verspeeten Cartage",Vaughan
+"2009,New Brunswick,2016A000213,Straight trucks,Number,223,units ,0,v54328982,4.2,1328,,,,0,Manitoulin Transport",Thunder Bay
+"2009,New Brunswick,2016A000213,Road tractors,Number,223,units ,0,v54328983,4.3,4347,,,,0,Verspeeten Cartage",Vaughan
+"2009,New Brunswick,2016A000213,All other powered units,Number,223,units ,0,v54328984,4.4,789,,,,0,Erb Transport",Thunder Bay
+"2009,New Brunswick,2016A000213,Total non-powered units,Number,223,units ,0,v54328985,4.5,14661,,,,0,Laidlaw Carriers",Whitby
+"2009,New Brunswick,2016A000213,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54328986,4.6,6186,,,,0,Purolator",Brampton
+"2009,New Brunswick,2016A000213,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54328987,4.7,3745,,,,0,Titanium Transportation Group",Kingston
+"2009,New Brunswick,2016A000213,Flat decks,Number,223,units ,0,v54328988,4.8,2194,,,,0,Contrans Group",Cambridge
+"2009,New Brunswick,2016A000213,Tanks,Number,223,units ,0,v54328989,4.9,400,,,,0,Laidlaw Carriers",Kingston
+"2009,New Brunswick,2016A000213,All other non-powered units,Number,223,units ,0,v54328990,4.1,2136,,,,0,Speedy Transport Group",Brampton
+"2009,Nova Scotia,2016A000212,Total powered units,Number,223,units ,0,v54328992,5.1,3224,,,,0,Manitoulin Transport",Sudbury
+"2009,Nova Scotia,2016A000212,Straight trucks,Number,223,units ,0,v54328993,5.2,775,,,,0,Purolator",Barrie
+"2009,Nova Scotia,2016A000212,Road tractors,Number,223,units ,0,v54328994,5.3,2132,,,,0,Challenger Motor Freight",Windsor
+"2009,Nova Scotia,2016A000212,All other powered units,Number,223,units ,0,v54328995,5.4,317,,,,0,Verspeeten Cartage",Oakville
+"2009,Nova Scotia,2016A000212,Total non-powered units,Number,223,units ,0,v54328996,5.5,4385,,,,0,Erb Transport",Markham
+"2009,Nova Scotia,2016A000212,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54328997,5.6,1391,,,,0,Kriska Transportation",Markham
+"2009,Nova Scotia,2016A000212,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54328998,5.7,681,,,,0,Fastfrate Group",Kingston
+"2009,Nova Scotia,2016A000212,Flat decks,Number,223,units ,0,v54328999,5.8,1407,,,,0,TransForce",Guelph
+"2009,Nova Scotia,2016A000212,Tanks,Number,223,units ,0,v54329000,5.9,379,,,,0,Challenger Motor Freight",Brampton
+"2009,Nova Scotia,2016A000212,All other non-powered units,Number,223,units ,0,v54329001,5.1,528,,,,0,TransForce",Kingston
+"2009,Quebec,2016A000224,Total powered units,Number,223,units ,0,v54329003,6.1,37491,,,,0,Verspeeten Cartage",Barrie
+"2009,Quebec,2016A000224,Straight trucks,Number,223,units ,0,v54329004,6.2,9892,,,,0,Kriska Transportation",Markham
+"2009,Quebec,2016A000224,Road tractors,Number,223,units ,0,v54329005,6.3,22386,,,,0,TST-CF Express",Ottawa
+"2009,Quebec,2016A000224,All other powered units,Number,223,units ,0,v54329006,6.4,5214,,,,0,Bison Transport",Hamilton
+"2009,Quebec,2016A000224,Total non-powered units,Number,223,units ,0,v54329007,6.5,58588,,,,0,XTL Transport",Barrie
+"2009,Quebec,2016A000224,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329008,6.6,37793,,,,0,TST-CF Express",Oakville
+"2009,Quebec,2016A000224,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329009,6.7,6909,,,,0,Canada Cartage",Ottawa
+"2009,Quebec,2016A000224,Flat decks,Number,223,units ,0,v54329010,6.8,5951,,,,0,Canada Cartage",Thunder Bay
+"2009,Quebec,2016A000224,Tanks,Number,223,units ,0,v54329011,6.9,3304,,,,0,Verspeeten Cartage",Thunder Bay
+"2009,Quebec,2016A000224,All other non-powered units,Number,223,units ,0,v54329012,6.1,4631,,,,0,Verspeeten Cartage",Vaughan
+"2009,Ontario,2016A000235,Total powered units,Number,223,units ,0,v54329014,7.1,60168,,,,0,Titanium Transportation Group",Ottawa
+"2009,Ontario,2016A000235,Straight trucks,Number,223,units ,0,v54329015,7.2,11729,,,,0,Bison Transport",Kitchener
+"2009,Ontario,2016A000235,Road tractors,Number,223,units ,0,v54329016,7.3,41198,,,,0,Kriska Transportation",Kingston
+"2009,Ontario,2016A000235,All other powered units,Number,223,units ,0,v54329017,7.4,7242,,,,0,Gardewine",Kitchener
+"2009,Ontario,2016A000235,Total non-powered units,Number,223,units ,0,v54329018,7.5,102028,,,,0,Erb Transport",Brampton
+"2009,Ontario,2016A000235,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329019,7.6,62453,,,,0,Speedy Transport Group",Toronto
+"2009,Ontario,2016A000235,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329020,7.7,9908,,,,0,Manitoulin Transport",London
+"2009,Ontario,2016A000235,Flat decks,Number,223,units ,0,v54329021,7.8,9635,,,,0,Purolator",Barrie
+"2009,Ontario,2016A000235,Tanks,Number,223,units ,0,v54329022,7.9,7534,,,,0,Verspeeten Cartage",Sudbury
+"2009,Ontario,2016A000235,All other non-powered units,Number,223,units ,0,v54329023,7.1,12497,,,,0,Speedy Transport Group",Oakville
+"2009,Manitoba,2016A000246,Total powered units,Number,223,units ,0,v54329025,8.1,10928,,,,0,Laidlaw Carriers",Cambridge
+"2009,Manitoba,2016A000246,Straight trucks,Number,223,units ,0,v54329026,8.2,2332,,,,0,TransForce",London
+"2009,Manitoba,2016A000246,Road tractors,Number,223,units ,0,v54329027,8.3,8309,,,,0,Canada Cartage",Mississauga
+"2009,Manitoba,2016A000246,All other powered units,Number,223,units ,0,v54329028,8.4,287,,,,0,Bison Transport",Ottawa
+"2009,Manitoba,2016A000246,Total non-powered units,Number,223,units ,0,v54329029,8.5,21423,,,,0,Fastfrate Group",Sudbury
+"2009,Manitoba,2016A000246,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329030,8.6,13289,,,,0,Manitoulin Transport",Markham
+"2009,Manitoba,2016A000246,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329031,8.7,3459,,,,0,TransForce",Vaughan
+"2009,Manitoba,2016A000246,Flat decks,Number,223,units ,0,v54329032,8.8,2138,,,,0,Canada Cartage",Mississauga
+"2009,Manitoba,2016A000246,Tanks,Number,223,units ,0,v54329033,8.9,1190,,,,0,Canada Cartage",Guelph
+"2009,Manitoba,2016A000246,All other non-powered units,Number,223,units ,0,v54329034,8.1,1347,,,,0,TST-CF Express",Oakville
+"2009,Saskatchewan,2016A000247,Total powered units,Number,223,units ,0,v54329036,9.1,6688,,,,0,Gardewine",Markham
+"2009,Saskatchewan,2016A000247,Straight trucks,Number,223,units ,0,v54329037,9.2,815,,,,0,Gardewine",Sudbury
+"2009,Saskatchewan,2016A000247,Road tractors,Number,223,units ,0,v54329038,9.3,5380,,,,0,Speedy Transport Group",Whitby
+"2009,Saskatchewan,2016A000247,All other powered units,Number,223,units ,0,v54329039,9.4,493,,,,0,Laidlaw Carriers",Windsor
+"2009,Saskatchewan,2016A000247,Total non-powered units,Number,223,units ,0,v54329040,9.5,10707,,,,0,TST-CF Express",Kitchener
+"2009,Saskatchewan,2016A000247,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329041,9.6,5119,,,,0,Titanium Transportation Group",Kitchener
+"2009,Saskatchewan,2016A000247,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329042,9.7,1059,,,,0,Bison Transport",London
+"2009,Saskatchewan,2016A000247,Flat decks,Number,223,units ,0,v54329043,9.8,2215,,,,0,TST-CF Express",Brampton
+"2009,Saskatchewan,2016A000247,Tanks,Number,223,units ,0,v54329044,9.9,1025,,,,0,Verspeeten Cartage",Ottawa
+"2009,Saskatchewan,2016A000247,All other non-powered units,Number,223,units ,0,v54329045,9.1,1288,,,,0,Erb Transport",Kitchener
+"2009,Alberta,2016A000248,Total powered units,Number,223,units ,0,v54329047,10.1,27767,,,,0,TransForce",Windsor
+"2009,Alberta,2016A000248,Straight trucks,Number,223,units ,0,v54329048,10.2,7647,,,,0,Titanium Transportation Group",Vaughan
+"2009,Alberta,2016A000248,Road tractors,Number,223,units ,0,v54329049,10.3,17360,,,,0,Titanium Transportation Group",Sudbury
+"2009,Alberta,2016A000248,All other powered units,Number,223,units ,0,v54329050,10.4,2760,,,,0,Verspeeten Cartage",Burlington
+"2009,Alberta,2016A000248,Total non-powered units,Number,223,units ,0,v54329051,10.5,47537,,,,0,TransForce",Oakville
+"2009,Alberta,2016A000248,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329052,10.6,16663,,,,0,Trimac Transportation",Mississauga
+"2009,Alberta,2016A000248,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329053,10.7,6712,,,,0,TST-CF Express",Thunder Bay
+"2009,Alberta,2016A000248,Flat decks,Number,223,units ,0,v54329054,10.8,10934,,,,0,Titanium Transportation Group",Toronto
+"2009,Alberta,2016A000248,Tanks,Number,223,units ,0,v54329055,10.9,5964,,,,0,Purolator",Ottawa
+"2009,Alberta,2016A000248,All other non-powered units,Number,223,units ,0,v54329056,10.1,7263,,,,0,Trimac Transportation",Thunder Bay
+"2009,British Columbia,2016A000259,Total powered units,Number,223,units ,0,v54329058,11.1,21683,,,,0,Trimac Transportation",Vaughan
+"2009,British Columbia,2016A000259,Straight trucks,Number,223,units ,0,v54329059,11.2,7232,,,,0,Laidlaw Carriers",Markham
+"2009,British Columbia,2016A000259,Road tractors,Number,223,units ,0,v54329060,11.3,11555,,,,0,Challenger Motor Freight",Vaughan
+"2009,British Columbia,2016A000259,All other powered units,Number,223,units ,0,v54329061,11.4,2907,,,,0,Kriska Transportation",London
+"2009,British Columbia,2016A000259,Total non-powered units,Number,223,units ,0,v54329062,11.5,29069,,,,0,Purolator",Mississauga
+"2009,British Columbia,2016A000259,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329063,11.6,11014,,,,0,Verspeeten Cartage",London
+"2009,British Columbia,2016A000259,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329064,11.7,3030,,,,0,Verspeeten Cartage",Markham
+"2009,British Columbia,2016A000259,Flat decks,Number,223,units ,0,v54329065,11.8,5152,,,,0,Challenger Motor Freight",Windsor
+"2009,British Columbia,2016A000259,Tanks,Number,223,units ,0,v54329066,11.9,1349,,,,0,Gardewine",Thunder Bay
+"2009,British Columbia,2016A000259,All other non-powered units,Number,223,units ,0,v54329067,11.1,8524,,,,0,Contrans Group",London
+"2009,Yukon,2016A000260,Total powered units,Number,223,units ,0,v54329069,12.1,89,,,,0,Canada Cartage",Kitchener
+"2009,Yukon,2016A000260,Straight trucks,Number,223,units ,0,v54329070,12.2,27,,,,0,Manitoulin Transport",Barrie
+"2009,Yukon,2016A000260,Road tractors,Number,223,units ,0,v54329071,12.3,51,,,,0,Contrans Group",Barrie
+"2009,Yukon,2016A000260,All other powered units,Number,223,units ,0,v54329072,12.4,12,,,,0,Challenger Motor Freight",Cambridge
+"2009,Yukon,2016A000260,Total non-powered units,Number,223,units ,0,v54329073,12.5,81,,,,0,Purolator",Kitchener
+"2009,Yukon,2016A000260,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329074,12.6,17,,,,0,Titanium Transportation Group",Cambridge
+"2009,Yukon,2016A000260,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329075,12.7,4,,,,0,Gardewine",Markham
+"2009,Yukon,2016A000260,Flat decks,Number,223,units ,0,v54329076,12.8,39,,,,0,Contrans Group",St. Catharines
+"2009,Yukon,2016A000260,Tanks,Number,223,units ,0,v54329077,12.9,13,,,,0,Gardewine",London
+"2009,Yukon,2016A000260,All other non-powered units,Number,223,units ,0,v54329078,12.1,8,,,,0,Erb Transport",Burlington
+"2009,Northwest Territories,2016A000261,Total powered units,Number,223,units ,0,v54329080,13.1,256,,,,0,Purolator",Vaughan
+"2009,Northwest Territories,2016A000261,Straight trucks,Number,223,units ,0,v54329081,13.2,26,,,,0,Trimac Transportation",Barrie
+"2009,Northwest Territories,2016A000261,Road tractors,Number,223,units ,0,v54329082,13.3,220,,,,0,Verspeeten Cartage",Hamilton
+"2009,Northwest Territories,2016A000261,All other powered units,Number,223,units ,0,v54329083,13.4,10,,,,0,Kriska Transportation",Windsor
+"2009,Northwest Territories,2016A000261,Total non-powered units,Number,223,units ,0,v54329084,13.5,582,,,,0,Challenger Motor Freight",Burlington
+"2009,Northwest Territories,2016A000261,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329085,13.6,387,,,,0,Laidlaw Carriers",Markham
+"2009,Northwest Territories,2016A000261,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329086,13.7,55,,,,0,Gardewine",Thunder Bay
+"2009,Northwest Territories,2016A000261,Flat decks,Number,223,units ,0,v54329087,13.8,101,,,,0,Manitoulin Transport",Oakville
+"2009,Northwest Territories,2016A000261,Tanks,Number,223,units ,0,v54329088,13.9,8,,,,0,Verspeeten Cartage",Markham
+"2009,Northwest Territories,2016A000261,All other non-powered units,Number,223,units ,0,v54329089,13.1,31,,,,0,Canada Cartage",London
+"2009,Nunavut,2016A000262,Total powered units,Number,223,units ,0,v54329091,14.1,11,,,,0,Speedy Transport Group",Thunder Bay
+"2009,Nunavut,2016A000262,Straight trucks,Number,223,units ,0,v54329092,14.2,7,,,,0,Speedy Transport Group",Whitby
+"2009,Nunavut,2016A000262,Road tractors,Number,223,units ,0,v54329093,14.3,4,,,,0,Kriska Transportation",Barrie
+"2009,Nunavut,2016A000262,All other powered units,Number,223,units ,0,v54329094,14.4,0,,,,0,Manitoulin Transport",Oakville
+"2009,Nunavut,2016A000262,Total non-powered units,Number,223,units ,0,v54329095,14.5,13,,,,0,TST-CF Express",Brampton
+"2009,Nunavut,2016A000262,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329096,14.6,7,,,,0,Purolator",Whitby
+"2009,Nunavut,2016A000262,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329097,14.7,0,,,,0,Verspeeten Cartage",Mississauga
+"2009,Nunavut,2016A000262,Flat decks,Number,223,units ,0,v54329098,14.8,5,,,,0,Laidlaw Carriers",London
+"2009,Nunavut,2016A000262,Tanks,Number,223,units ,0,v54329099,14.9,1,,,,0,TransForce",Cambridge
+"2009,Nunavut,2016A000262,All other non-powered units,Number,223,units ,0,v54329100,14.1,0,,,,0,Kriska Transportation",Thunder Bay
+"2010,Canada,2016A000011124,Total powered units,Number,223,units ,0,v54328948,1.1,181587,,,,0,Challenger Motor Freight",Barrie
+"2010,Canada,2016A000011124,Straight trucks,Number,223,units ,0,v54328949,1.2,40696,,,,0,Trimac Transportation",Burlington
+"2010,Canada,2016A000011124,Road tractors,Number,223,units ,0,v54328950,1.3,120903,,,,0,Trimac Transportation",Markham
+"2010,Canada,2016A000011124,All other powered units,Number,223,units ,0,v54328951,1.4,19989,,,,0,Kriska Transportation",Windsor
+"2010,Canada,2016A000011124,Total non-powered units,Number,223,units ,0,v54328952,1.5,302033,,,,0,Trimac Transportation",Whitby
+"2010,Canada,2016A000011124,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54328953,1.6,156565,,,,0,Titanium Transportation Group",Whitby
+"2010,Canada,2016A000011124,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54328954,1.7,41256,,,,0,Laidlaw Carriers",Toronto
+"2010,Canada,2016A000011124,Flat decks,Number,223,units ,0,v54328955,1.8,41143,,,,0,Verspeeten Cartage",Sudbury
+"2010,Canada,2016A000011124,Tanks,Number,223,units ,0,v54328956,1.9,21436,,,,0,XTL Transport",Thunder Bay
+"2010,Canada,2016A000011124,All other non-powered units,Number,223,units ,0,v54328957,1.1,41634,,,,0,TransForce",Barrie
+"2010,Newfoundland and Labrador,2016A000210,Total powered units,Number,223,units ,0,v54328959,2.1,1417,,,,0,Speedy Transport Group",Mississauga
+"2010,Newfoundland and Labrador,2016A000210,Straight trucks,Number,223,units ,0,v54328960,2.2,274,,,,0,Laidlaw Carriers",Thunder Bay
+"2010,Newfoundland and Labrador,2016A000210,Road tractors,Number,223,units ,0,v54328961,2.3,950,,,,0,Gardewine",Vaughan
+"2010,Newfoundland and Labrador,2016A000210,All other powered units,Number,223,units ,0,v54328962,2.4,193,,,,0,Contrans Group",Oakville
+"2010,Newfoundland and Labrador,2016A000210,Total non-powered units,Number,223,units ,0,v54328963,2.5,1839,,,,0,Kriska Transportation",Ottawa
+"2010,Newfoundland and Labrador,2016A000210,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54328964,2.6,813,,,,0,Bison Transport",Kingston
+"2010,Newfoundland and Labrador,2016A000210,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54328965,2.7,361,,,,0,Bison Transport",Brampton
+"2010,Newfoundland and Labrador,2016A000210,Flat decks,Number,223,units ,0,v54328966,2.8,328,,,,0,Kriska Transportation",Whitby
+"2010,Newfoundland and Labrador,2016A000210,Tanks,Number,223,units ,0,v54328967,2.9,96,,,,0,Gardewine",Oakville
+"2010,Newfoundland and Labrador,2016A000210,All other non-powered units,Number,223,units ,0,v54328968,2.1,240,,,,0,Erb Transport",Mississauga
+"2010,Prince Edward Island,2016A000211,Total powered units,Number,223,units ,0,v54328970,3.1,591,,,,0,Canada Cartage",Whitby
+"2010,Prince Edward Island,2016A000211,Straight trucks,Number,223,units ,0,v54328971,3.2,79,,,,0,Erb Transport",Kingston
+"2010,Prince Edward Island,2016A000211,Road tractors,Number,223,units ,0,v54328972,3.3,432,,,,0,Speedy Transport Group",Oakville
+"2010,Prince Edward Island,2016A000211,All other powered units,Number,223,units ,0,v54328973,3.4,81,,,,0,Gardewine",Hamilton
+"2010,Prince Edward Island,2016A000211,Total non-powered units,Number,223,units ,0,v54328974,3.5,596,,,,0,TransForce",London
+"2010,Prince Edward Island,2016A000211,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54328975,3.6,155,,,,0,Laidlaw Carriers",Toronto
+"2010,Prince Edward Island,2016A000211,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54328976,3.7,181,,,,0,Challenger Motor Freight",Mississauga
+"2010,Prince Edward Island,2016A000211,Flat decks,Number,223,units ,0,v54328977,3.8,47,,,,0,Trimac Transportation",Windsor
+"2010,Prince Edward Island,2016A000211,Tanks,Number,223,units ,0,v54328978,3.9,17,,,,0,Contrans Group",Brampton
+"2010,Prince Edward Island,2016A000211,All other non-powered units,Number,223,units ,0,v54328979,3.1,196,,,,0,Purolator",Barrie
+"2010,New Brunswick,2016A000213,Total powered units,Number,223,units ,0,v54328981,4.1,6102,,,,0,Fastfrate Group",Mississauga
+"2010,New Brunswick,2016A000213,Straight trucks,Number,223,units ,0,v54328982,4.2,1106,,,,0,Verspeeten Cartage",London
+"2010,New Brunswick,2016A000213,Road tractors,Number,223,units ,0,v54328983,4.3,3897,,,,0,XTL Transport",Brampton
+"2010,New Brunswick,2016A000213,All other powered units,Number,223,units ,0,v54328984,4.4,1099,,,,0,XTL Transport",Markham
+"2010,New Brunswick,2016A000213,Total non-powered units,Number,223,units ,0,v54328985,4.5,13944,,,,0,Gardewine",Hamilton
+"2010,New Brunswick,2016A000213,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54328986,4.6,6327,,,,0,Contrans Group",Barrie
+"2010,New Brunswick,2016A000213,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54328987,4.7,3770,,,,0,Laidlaw Carriers",London
+"2010,New Brunswick,2016A000213,Flat decks,Number,223,units ,0,v54328988,4.8,1713,,,,0,TST-CF Express",Hamilton
+"2010,New Brunswick,2016A000213,Tanks,Number,223,units ,0,v54328989,4.9,308,,,,0,XTL Transport",Oakville
+"2010,New Brunswick,2016A000213,All other non-powered units,Number,223,units ,0,v54328990,4.1,1826,,,,0,TST-CF Express",Brampton
+"2010,Nova Scotia,2016A000212,Total powered units,Number,223,units ,0,v54328992,5.1,3471,,,,0,XTL Transport",Thunder Bay
+"2010,Nova Scotia,2016A000212,Straight trucks,Number,223,units ,0,v54328993,5.2,447,,,,0,Trimac Transportation",Kingston
+"2010,Nova Scotia,2016A000212,Road tractors,Number,223,units ,0,v54328994,5.3,2499,,,,0,TransForce",Oakville
+"2010,Nova Scotia,2016A000212,All other powered units,Number,223,units ,0,v54328995,5.4,524,,,,0,Gardewine",Cambridge
+"2010,Nova Scotia,2016A000212,Total non-powered units,Number,223,units ,0,v54328996,5.5,6005,,,,0,Speedy Transport Group",Windsor
+"2010,Nova Scotia,2016A000212,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54328997,5.6,1894,,,,0,Contrans Group",Barrie
+"2010,Nova Scotia,2016A000212,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54328998,5.7,709,,,,0,Titanium Transportation Group",Oakville
+"2010,Nova Scotia,2016A000212,Flat decks,Number,223,units ,0,v54328999,5.8,1047,,,,0,TST-CF Express",Brampton
+"2010,Nova Scotia,2016A000212,Tanks,Number,223,units ,0,v54329000,5.9,520,,,,0,Laidlaw Carriers",Barrie
+"2010,Nova Scotia,2016A000212,All other non-powered units,Number,223,units ,0,v54329001,5.1,1835,,,,0,Gardewine",Cambridge
+"2010,Quebec,2016A000224,Total powered units,Number,223,units ,0,v54329003,6.1,37415,,,,0,Erb Transport",Sudbury
+"2010,Quebec,2016A000224,Straight trucks,Number,223,units ,0,v54329004,6.2,7929,,,,0,XTL Transport",Cambridge
+"2010,Quebec,2016A000224,Road tractors,Number,223,units ,0,v54329005,6.3,25174,,,,0,TST-CF Express",Brampton
+"2010,Quebec,2016A000224,All other powered units,Number,223,units ,0,v54329006,6.4,4312,,,,0,Contrans Group",Cambridge
+"2010,Quebec,2016A000224,Total non-powered units,Number,223,units ,0,v54329007,6.5,63144,,,,0,Bison Transport",Kingston
+"2010,Quebec,2016A000224,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329008,6.6,40791,,,,0,Manitoulin Transport",Guelph
+"2010,Quebec,2016A000224,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329009,6.7,8461,,,,0,Canada Cartage",Guelph
+"2010,Quebec,2016A000224,Flat decks,Number,223,units ,0,v54329010,6.8,7320,,,,0,Challenger Motor Freight",Sudbury
+"2010,Quebec,2016A000224,Tanks,Number,223,units ,0,v54329011,6.9,2165,,,,0,Challenger Motor Freight",St. Catharines
+"2010,Quebec,2016A000224,All other non-powered units,Number,223,units ,0,v54329012,6.1,4407,,,,0,Canada Cartage",Whitby
+"2010,Ontario,2016A000235,Total powered units,Number,223,units ,0,v54329014,7.1,63123,,,,0,Bison Transport",Whitby
+"2010,Ontario,2016A000235,Straight trucks,Number,223,units ,0,v54329015,7.2,13948,,,,0,Contrans Group",Barrie
+"2010,Ontario,2016A000235,Road tractors,Number,223,units ,0,v54329016,7.3,42827,,,,0,Laidlaw Carriers",Mississauga
+"2010,Ontario,2016A000235,All other powered units,Number,223,units ,0,v54329017,7.4,6348,,,,0,Speedy Transport Group",Sudbury
+"2010,Ontario,2016A000235,Total non-powered units,Number,223,units ,0,v54329018,7.5,100632,,,,0,Manitoulin Transport",Sudbury
+"2010,Ontario,2016A000235,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329019,7.6,55417,,,,0,Erb Transport",Whitby
+"2010,Ontario,2016A000235,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329020,7.7,14770,,,,0,Erb Transport",Whitby
+"2010,Ontario,2016A000235,Flat decks,Number,223,units ,0,v54329021,7.8,12110,,,,0,Trimac Transportation",Kingston
+"2010,Ontario,2016A000235,Tanks,Number,223,units ,0,v54329022,7.9,6605,,,,0,Gardewine",St. Catharines
+"2010,Ontario,2016A000235,All other non-powered units,Number,223,units ,0,v54329023,7.1,11730,,,,0,XTL Transport",Whitby
+"2010,Manitoba,2016A000246,Total powered units,Number,223,units ,0,v54329025,8.1,11036,,,,0,Kriska Transportation",Oakville
+"2010,Manitoba,2016A000246,Straight trucks,Number,223,units ,0,v54329026,8.2,1664,,,,0,Laidlaw Carriers",Kingston
+"2010,Manitoba,2016A000246,Road tractors,Number,223,units ,0,v54329027,8.3,8739,,,,0,Speedy Transport Group",Oakville
+"2010,Manitoba,2016A000246,All other powered units,Number,223,units ,0,v54329028,8.4,632,,,,0,Challenger Motor Freight",Kingston
+"2010,Manitoba,2016A000246,Total non-powered units,Number,223,units ,0,v54329029,8.5,23680,,,,0,Titanium Transportation Group",Mississauga
+"2010,Manitoba,2016A000246,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329030,8.6,14621,,,,0,Gardewine",Barrie
+"2010,Manitoba,2016A000246,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329031,8.7,3517,,,,0,XTL Transport",Brampton
+"2010,Manitoba,2016A000246,Flat decks,Number,223,units ,0,v54329032,8.8,2037,,,,0,Titanium Transportation Group",Windsor
+"2010,Manitoba,2016A000246,Tanks,Number,223,units ,0,v54329033,8.9,701,,,,0,Contrans Group",London
+"2010,Manitoba,2016A000246,All other non-powered units,Number,223,units ,0,v54329034,8.1,2804,,,,0,Laidlaw Carriers",Kitchener
+"2010,Saskatchewan,2016A000247,Total powered units,Number,223,units ,0,v54329036,9.1,8227,,,,0,TransForce",Kingston
+"2010,Saskatchewan,2016A000247,Straight trucks,Number,223,units ,0,v54329037,9.2,1310,,,,0,Titanium Transportation Group",Cambridge
+"2010,Saskatchewan,2016A000247,Road tractors,Number,223,units ,0,v54329038,9.3,6182,,,,0,TransForce",Cambridge
+"2010,Saskatchewan,2016A000247,All other powered units,Number,223,units ,0,v54329039,9.4,735,,,,0,Challenger Motor Freight",Cambridge
+"2010,Saskatchewan,2016A000247,Total non-powered units,Number,223,units ,0,v54329040,9.5,10476,,,,0,Fastfrate Group",Kingston
+"2010,Saskatchewan,2016A000247,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329041,9.6,4575,,,,0,Trimac Transportation",St. Catharines
+"2010,Saskatchewan,2016A000247,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329042,9.7,1521,,,,0,Erb Transport",Vaughan
+"2010,Saskatchewan,2016A000247,Flat decks,Number,223,units ,0,v54329043,9.8,1830,,,,0,Gardewine",Whitby
+"2010,Saskatchewan,2016A000247,Tanks,Number,223,units ,0,v54329044,9.9,1433,,,,0,TST-CF Express",Barrie
+"2010,Saskatchewan,2016A000247,All other non-powered units,Number,223,units ,0,v54329045,9.1,1118,,,,0,Contrans Group",Ottawa
+"2010,Alberta,2016A000248,Total powered units,Number,223,units ,0,v54329047,10.1,29431,,,,0,TransForce",Markham
+"2010,Alberta,2016A000248,Straight trucks,Number,223,units ,0,v54329048,10.2,8747,,,,0,Erb Transport",Barrie
+"2010,Alberta,2016A000248,Road tractors,Number,223,units ,0,v54329049,10.3,16804,,,,0,Laidlaw Carriers",Ottawa
+"2010,Alberta,2016A000248,All other powered units,Number,223,units ,0,v54329050,10.4,3880,,,,0,Purolator",London
+"2010,Alberta,2016A000248,Total non-powered units,Number,223,units ,0,v54329051,10.5,49066,,,,0,Trimac Transportation",Ottawa
+"2010,Alberta,2016A000248,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329052,10.6,16351,,,,0,Fastfrate Group",London
+"2010,Alberta,2016A000248,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329053,10.7,4331,,,,0,Speedy Transport Group",Markham
+"2010,Alberta,2016A000248,Flat decks,Number,223,units ,0,v54329054,10.8,9360,,,,0,Trimac Transportation",Kitchener
+"2010,Alberta,2016A000248,Tanks,Number,223,units ,0,v54329055,10.9,7762,,,,0,Manitoulin Transport",Barrie
+"2010,Alberta,2016A000248,All other non-powered units,Number,223,units ,0,v54329056,10.1,11262,,,,0,Bison Transport",Vaughan
+"2010,British Columbia,2016A000259,Total powered units,Number,223,units ,0,v54329058,11.1,20398,,,,0,Bison Transport",Barrie
+"2010,British Columbia,2016A000259,Straight trucks,Number,223,units ,0,v54329059,11.2,5115,,,,0,Titanium Transportation Group",Vaughan
+"2010,British Columbia,2016A000259,Road tractors,Number,223,units ,0,v54329060,11.3,13124,,,,0,Purolator",Mississauga
+"2010,British Columbia,2016A000259,All other powered units,Number,223,units ,0,v54329061,11.4,2159,,,,0,Purolator",Whitby
+"2010,British Columbia,2016A000259,Total non-powered units,Number,223,units ,0,v54329062,11.5,32069,,,,0,Titanium Transportation Group",Mississauga
+"2010,British Columbia,2016A000259,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329063,11.6,15256,,,,0,Fastfrate Group",Cambridge
+"2010,British Columbia,2016A000259,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329064,11.7,3557,,,,0,Laidlaw Carriers",Vaughan
+"2010,British Columbia,2016A000259,Flat decks,Number,223,units ,0,v54329065,11.8,5256,,,,0,Verspeeten Cartage",Markham
+"2010,British Columbia,2016A000259,Tanks,Number,223,units ,0,v54329066,11.9,1815,,,,0,Fastfrate Group",Whitby
+"2010,British Columbia,2016A000259,All other non-powered units,Number,223,units ,0,v54329067,11.1,6184,,,,0,Trimac Transportation",Kingston
+"2010,Yukon,2016A000260,Total powered units,Number,223,units ,0,v54329069,12.1,118,,,,0,Fastfrate Group",Hamilton
+"2010,Yukon,2016A000260,Straight trucks,Number,223,units ,0,v54329070,12.2,52,,,,0,Challenger Motor Freight",London
+"2010,Yukon,2016A000260,Road tractors,Number,223,units ,0,v54329071,12.3,51,,,,0,Purolator",Hamilton
+"2010,Yukon,2016A000260,All other powered units,Number,223,units ,0,v54329072,12.4,15,,,,0,Challenger Motor Freight",Mississauga
+"2010,Yukon,2016A000260,Total non-powered units,Number,223,units ,0,v54329073,12.5,100,,,,0,Bison Transport",Mississauga
+"2010,Yukon,2016A000260,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329074,12.6,36,,,,0,XTL Transport",Mississauga
+"2010,Yukon,2016A000260,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329075,12.7,18,,,,0,Manitoulin Transport",Oakville
+"2010,Yukon,2016A000260,Flat decks,Number,223,units ,0,v54329076,12.8,29,,,,0,Verspeeten Cartage",Kingston
+"2010,Yukon,2016A000260,Tanks,Number,223,units ,0,v54329077,12.9,14,,,,0,Gardewine",Oakville
+"2010,Yukon,2016A000260,All other non-powered units,Number,223,units ,0,v54329078,12.1,3,,,,0,Contrans Group",Windsor
+"2010,Northwest Territories,2016A000261,Total powered units,Number,223,units ,0,v54329080,13.1,245,,,,0,Titanium Transportation Group",Mississauga
+"2010,Northwest Territories,2016A000261,Straight trucks,Number,223,units ,0,v54329081,13.2,21,,,,0,XTL Transport",Guelph
+"2010,Northwest Territories,2016A000261,Road tractors,Number,223,units ,0,v54329082,13.3,214,,,,0,Titanium Transportation Group",Burlington
+"2010,Northwest Territories,2016A000261,All other powered units,Number,223,units ,0,v54329083,13.4,10,,,,0,Titanium Transportation Group",St. Catharines
+"2010,Northwest Territories,2016A000261,Total non-powered units,Number,223,units ,0,v54329084,13.5,464,,,,0,Challenger Motor Freight",Vaughan
+"2010,Northwest Territories,2016A000261,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329085,13.6,317,,,,0,TransForce",Barrie
+"2010,Northwest Territories,2016A000261,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329086,13.7,53,,,,0,Speedy Transport Group",Markham
+"2010,Northwest Territories,2016A000261,Flat decks,Number,223,units ,0,v54329087,13.8,65,,,,0,Gardewine",Sudbury
+"2010,Northwest Territories,2016A000261,Tanks,Number,223,units ,0,v54329088,13.9,1,,,,0,Speedy Transport Group",Vaughan
+"2010,Northwest Territories,2016A000261,All other non-powered units,Number,223,units ,0,v54329089,13.1,28,,,,0,Challenger Motor Freight",Ottawa
+"2010,Nunavut,2016A000262,Total powered units,Number,223,units ,0,v54329091,14.1,13,,,,0,Canada Cartage",Guelph
+"2010,Nunavut,2016A000262,Straight trucks,Number,223,units ,0,v54329092,14.2,2,,,,0,Laidlaw Carriers",Vaughan
+"2010,Nunavut,2016A000262,Road tractors,Number,223,units ,0,v54329093,14.3,9,,,,0,Trimac Transportation",Burlington
+"2010,Nunavut,2016A000262,All other powered units,Number,223,units ,0,v54329094,14.4,2,,,,0,Manitoulin Transport",London
+"2010,Nunavut,2016A000262,Total non-powered units,Number,223,units ,0,v54329095,14.5,20,,,,0,Gardewine",Whitby
+"2010,Nunavut,2016A000262,""Vans and/or semi-trailers,non-climate controlled"",Number,223,units ,0,v54329096,14.6,11,,,,0,TransForce",Oakville
+"2010,Nunavut,2016A000262,""Van and/or semi-trailers, climate controlled"",Number,223,units ,0,v54329097,14.7,8,,,,0,Fastfrate Group",Whitby
+"2010,Nunavut,2016A000262,Flat decks,Number,223,units ,0,v54329098,14.8,1,,,,0,Gardewine",Windsor
+"2010,Nunavut,2016A000262,Tanks,Number,223,units ,0,v54329099,14.9,0,,,,0,Erb Transport",Hamilton
+"2010,Nunavut,2016A000262,All other non-powered units,Number,223,units ,0,v54329100,14.1,0,,,,0,Fastfrate Group",Oakville
