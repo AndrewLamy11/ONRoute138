@@ -57,7 +57,7 @@ export default function CreateUserPage() {
   };
 
   return (
-    <div>
+    <div id="user">
       <UserForm
         formData={formData}
         handleOnChange={handleOnChange}

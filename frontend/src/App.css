@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #893823;
+  background-color: hsla(59, 69%, 44%, 0.8);
   color: white;
 }
 
@@ -12,6 +12,7 @@ body {
   align-items: center;
   color: white;
   background-color: #672a1b;
+  border-radius: 5px;
 }
 
 .NavLeftSide {
@@ -46,12 +47,13 @@ body {
   border-radius: 15px;
   border: 3px solid black;
   color: black;
-  position: absolute;
+  /* position: absolute;
   top: 220px;
-  left: 15px;
-  width: 625px;
-  height: 450px;
+  left: 15px; */
+  width: 95vh;
+  height: 80vh;
   box-sizing: border-box;
+  margin: auto 60vh;
 }
 
 h2 {
@@ -121,19 +123,21 @@ br {
 }
 
 .new-order-button {
-  position: fixed;
+  /* position: fixed;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   background-color: rgb(202, 202, 202);
   color: rgb(0, 0, 0);
   border: 2px solid black;
-  padding: 10px 20px;
+ 
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
   width: 200px;
-  height: 100px;
+  height: 100px; */
+  padding: 10px 20px;
+  margin: 20px;
 }
 
 .new-order-button:hover {
@@ -148,4 +152,102 @@ br {
   width: 100vw;
   text-align: center;
   color: white;
+}
+
+.container {
+  background-color: rgba(87, 10, 10, 0.868);
+  /* background-color: rgba(24, 15, 15, 0.868); */
+  border-radius: 10px 10px;
+  padding: 10px 10px;
+  width: 80vh;
+  height: 70vh;
+
+  text-align: center;
+  margin: auto;
+}
+
+.container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  margin: 10px auto;
+  /* margin-left: 220px; */
+}
+
+button:hover {
+  background-color: #000000;
+  color: pink;
+}
+
+.container input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container input:hover {
+  border-color: #007bff; /* Change border color on hover */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle shadow */
+}
+
+#user {
+  margin-left: 400px;
+  text-align: center;
+  /* margin: auto; */
+  padding: 5px;
+}
+#tuser {
+  margin-left: 400px;
+  text-align: center;
+  /* margin: auto; */
+  padding: 5px;
+}
+
+#main {
+  display: flex;
+  margin: 10px 8px;
+}
+
+.OrderForm {
+  display: flex;
+  flex-direction: column;
+  margin: auto 60vh;
+  /* justify-content: center; */
+  text-align: center;
+  align-items: center;
+  /* background-color: rgba(87, 10, 10, 0.868); */
+  background-color: rgba(24, 15, 15, 0.868);
+  padding: 20px 20px;
+  width: 90vh;
+  /* height: 90vh; */
+  border-radius: 8px 8px;
+}
+
+.rt-container {
+  background-color: rgba(24, 15, 15, 0.868);
+  border-radius: 10px 10px;
+  padding: 10px 10px;
+  width: 95vh;
+  height: 80vh;
+
+  text-align: center;
+  margin: auto 55vh;
+}
+
+.dt-container {
+  /* background-color: rgba(205, 195, 195, 0.868); */
+  /* background-color: rgba(24, 15, 15, 0.868); */
+  background-color: rgba(87, 10, 10, 0.868);
+  border-radius: 10px 10px;
+  padding: 10px 10px;
+  width: 100vh;
+  height: 90vh;
+
+  text-align: left;
+  margin: auto 55vh;
+  color: #d8e7d6;
 }

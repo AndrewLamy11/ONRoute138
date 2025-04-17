@@ -35,7 +35,7 @@ const Details = () => {
   }
 
   return (
-    <div>
+    <div className="dt-container">
       <h1>{companyDetails.TruckCompany}</h1>
       <p>Pickup Location: {companyDetails.PickupLocation}</p>
       {/* Display more company details here */}

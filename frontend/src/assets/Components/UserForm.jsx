@@ -11,9 +11,10 @@ export default function UserForm({
   const navigate = useNavigate();
 
   return (
-    <div>
+    <div className="container">
+      <h1>ONROUTE 138</h1>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="username">Username</label>
+        <label htmlFor="username">Username : </label>
         <input
           type="text"
           name="username"
@@ -22,7 +23,7 @@ export default function UserForm({
           onChange={handleOnChange}
         />
         <br />
-        <label htmlFor="password">Password</label>
+        <label htmlFor="password">Password : </label>
         <input
           type="password"
           name="password"
@@ -35,7 +36,7 @@ export default function UserForm({
         {/* Show these fields only on Create User & Create Truck User pages */}
         {formType !== "login" && (
           <>
-            <label htmlFor="firstname">First Name</label>
+            <label htmlFor="firstname">First Name : </label>
             <input
               type="text"
               name="firstname"
@@ -44,7 +45,7 @@ export default function UserForm({
               onChange={handleOnChange}
             />
             <br />
-            <label htmlFor="lastname">Last Name</label>
+            <label htmlFor="lastname">Last Name : </label>
             <input
               type="text"
               name="lastname"
@@ -53,7 +54,7 @@ export default function UserForm({
               onChange={handleOnChange}
             />
             <br />
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">Email : </label>
             <input
               type="text"
               name="email"

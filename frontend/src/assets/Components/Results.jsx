@@ -35,19 +35,21 @@ export default function Results() {
 
   return (
     <>
-      <Navbar />
-      <h1>Results</h1>
-      <div className="results-container">
+      <div className="rt-container">
+        <h1>Results</h1>
+        <Navbar />
         {loading ? (
           <p>Loading...</p>
         ) : results ? (
           results.map((item, index) => (
-            <div className="result-card" key={index}>
-              {/* <h3>{item.companyName}</h3> */}
-              <p>Location: {item.PickupLocation}</p>
-              <p>Company Name: {item.TruckCompany}</p>
-              <p>Cargo Command Center: {item.GEO}</p>
-              {console.log(item)}
+            <div className="result-ct">
+              <div className="result-card" key={index}>
+                {/* <h3>{item.companyName}</h3> */}
+                <p>Location: {item.PickupLocation}</p>
+                <p>Company Name: {item.TruckCompany}</p>
+                <p>Cargo Command Center: {item.GEO}</p>
+                {console.log(item)}
+              </div>
               {type && item[type] !== undefined && (
                 <>
                   <p>Truck Type: {type}</p>

@@ -3,8 +3,8 @@ import Navbar from "./Navbar";
 export default function OrderHistory() {
   return (
     <>
-      <Navbar />
       <div className="order-box">
+        <Navbar />
         <div className="order-box-header">
           <h1>Order History</h1>
         </div>
