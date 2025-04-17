@@ -34,7 +34,9 @@ export default function PrivatePage() {
     <div>
       <h1>Welcome to Route 138 {currentUser}</h1>
 
-      <Navbar />
+      {/* 👇 Pass currentUser to Navbar */}
+      <Navbar username={currentUser} />
+      {/* <Navbar /> */}
       <div>
         <h2> Welcome to ONRoute 138 – Your Premier Trucking Network!</h2>
 

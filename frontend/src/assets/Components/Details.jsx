@@ -37,15 +37,45 @@ const Details = () => {
   return (
     <div>
       <h1>{companyDetails.TruckCompany}</h1>
-      <p>Pickup Location: {companyDetails.PickupLocation}</p>
+      <p>
+        <h3>Info: {companyDetails.Description}</h3>
+      </p>
+      <p>
+        <h4>Trucks Available: {companyDetails.VALUE}</h4>
+      </p>
+      <p>
+        <h4>Pickup Location: {companyDetails.PickupLocation}</h4>
+      </p>
       {/* Display more company details here */}
       <p>
-        Fleet and Equipment Statistics:{" "}
-        {companyDetails.FleetandEquipmentStatistics}
+        <h4>
+          Fleet and Equipment Statistics:{" "}
+          {companyDetails.FleetandEquipmentStatistics}
+        </h4>
       </p>
-      <p>Info: {companyDetails.Description}</p>
-      {/* Add any other information from the company object */}
+      <p>
+        <h4>Company Founded: {companyDetails.REF_DATE}</h4>
+      </p>
+      <p>
+        <h4> DGUID: {companyDetails.DGUID}</h4>
+      </p>
 
+      <p>
+        <h4> UOM_ID: {companyDetails.UOM_ID}</h4>
+      </p>
+      <p>
+        <h4> Scaler_Factor: {companyDetails.SCALAR_FACTOR}</h4>
+      </p>
+      {companyDetails.ImagePath && (
+        <img
+          src={companyDetails.ImagePath}
+          alt={`${companyDetails.TruckCompany} logo`}
+          style={{ width: "300px", borderRadius: "10px", marginTop: "20px" }}
+        />
+      )}
+
+      {/* Add any other information from the company object */}
+      <br />
       <CreateOrderButton
         companyName={companyDetails.TruckCompany}
         pickupLocation={companyDetails.PickupLocation}

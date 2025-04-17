@@ -21,9 +21,11 @@ export default function Results() {
         Pickuplocation: start,
       })
       .then((response) => {
-        setResults((prevData) => {
-          return [...prevData, response.data];
-        });
+        // setResults((prevData) => {
+        //   return [...prevData, response.data];
+        // });
+
+        setResults([response.data]); // ✅ Wrap it directly in an array
       })
       .catch((error) => {
         console.error("Error fetching results", error);
