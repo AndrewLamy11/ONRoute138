@@ -31,7 +31,7 @@ export default function CreateOrderButton({ companyName, pickupLocation }) {
           headers: {
             Authorization: `Bearer ${token}`,
           },
-          withCredentials: true, // 🔥 Make sure to include this
+          credentials: true, // 🔥 Make sure to include this
         }
       );
 

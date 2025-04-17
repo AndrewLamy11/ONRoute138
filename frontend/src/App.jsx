@@ -54,6 +54,7 @@ import NewOrderForm from "./assets/Components/NewOrderForm";
 import OrderHistory from "./assets/Components/OrderHistory";
 import Results from "./assets/Components/Results";
 import Details from "./assets/Components/Details";
+import TruckLandingPage from "./assets/Components/truckLandingPage";
 
 function App() {
   return (
@@ -61,6 +62,9 @@ function App() {
       <Router>
         <Routes>
           <Route element={<PrivateRoute />}>
+            <Route path="/truck" element={<TruckLandingPage />} />
+            {/* <Route path="/user" element={<MainPage />} /> */}
+            {/* <Route path="/user" element={<UserLandingPage />} /> */}
             <Route path="/main" element={<MainPage />} />
             <Route
               path="/details/:companyName/:pickupLocation"

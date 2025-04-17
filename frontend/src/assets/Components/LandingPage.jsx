@@ -44,22 +44,116 @@ export default function LandingPage() {
   };
 
   const handlelogin = async () => {
-    await axios
-      .post("http://localhost:3000", {
+    try {
+      const res = await axios.post("http://localhost:3000", {
         username: formData.username,
         password: formData.password,
-      })
-      .then((response) => {
-        setPostResponse(response.data.message);
-        if (
-          response.data.message === "User  Authenticated" ||
-          "TruckUser Authenticated"
-        ) {
-          handleCookie(response.data.token);
-          navigate("/main");
-        }
       });
+
+      console.log("🧪 Full login response:", res.data);
+
+      if (res.data.token) {
+        Cookies.set("jwt-authorization", res.data.token);
+        console.log("✅ Logged in with role:", res.data.role);
+
+        if (res.data.role === "truckUser") {
+          navigate("/truck");
+        } else if (res.data.role === "user") {
+          navigate("/main");
+        } else {
+          console.error("❌ Unknown role:", res.data.role);
+          navigate("/not-authorized");
+        }
+      } else {
+        setPostResponse("Login failed. Please try again.");
+      }
+    } catch (error) {
+      console.error("Login failed:", error);
+      setPostResponse("Login failed. Please try again.");
+    }
   };
+
+  // const handlelogin = async () => {
+  //   try {
+  //     const res = await axios.post("http://localhost:3000", {
+  //       username: formData.username,
+  //       password: formData.password,
+  //     });
+
+  //     if (res.data.token) {
+  //       Cookies.set("jwt-authorization", res.data.token);
+  //       console.log("✅ Logged in with role:", res.data.role);
+
+  //       // redirect based on role
+  //       if (res.data.role === "user") {
+  //         navigate("/main");
+  //       } else if (res.data.role === "truckUser") {
+  //         navigate("/truck");
+  //       } else {
+  //         console.error("Unknown role:", res.data.role);
+  //         navigate("/not-authorized");
+  //       }
+  //     } else {
+  //       setPostResponse("Login failed. Please try again.");
+  //     }
+  //   } catch (error) {
+  //     console.error("Login failed:", error);
+  //     setPostResponse("Login failed. Please try again.");
+  //   }
+  // };
+  // const handlelogin = async () => {
+  //   try {
+  //     const res = await axios.post("http://localhost:3000", {
+  //       username: formData.username,
+  //       password: formData.password,
+  //     });
+
+  //     if (res.data.token) {
+  //       Cookies.set("jwt-authorization", res.data.token);
+  //       console.log("✅ Logged in with role:", res.data.role);
+
+  //       // redirect based on role
+  //       if (res.data.role === "truckUser") {
+  //         navigate("/truck");
+  //       } else if (res.data.role === "user") {
+  //         navigate("/main");
+  //       } else {
+  //         console.error("Unknown role:", res.data.role);
+  //         navigate("/not-authorized");
+  //       }
+  //     }
+
+  //   // redirect based on role
+  //   if (res.data.role === "truckUser") {
+  //     navigate("/truck"); // 🚚 Truck user route
+  //   } else {
+  //     navigate("/user"); // 👤 Regular user route
+  //   }
+  // } else {
+  //   setPostResponse(res.data.message);
+  // }
+  //   } catch (error) {
+  //     console.error("Login failed:", error);
+  //     setPostResponse("Login failed. Please try again.");
+  //   }
+  // };
+  // const handlelogin = async () => {
+  //   await axios
+  //     .post("http://localhost:3000", {
+  //       username: formData.username,
+  //       password: formData.password,
+  //     })
+  //     .then((response) => {
+  //       setPostResponse(response.data.message);
+  //       if (
+  //         response.data.message === "User  Authenticated" ||
+  //         "TruckUser Authenticated"
+  //       ) {
+  //         handleCookie(response.data.token);
+  //         navigate("/main");
+  //       }
+  //     });
+  // };
 
   return (
     <div className="CenterPage">
