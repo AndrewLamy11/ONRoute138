@@ -53,6 +53,10 @@ const truckCompanySchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  ImagePath: {
+    type: String,
+    required: true,
+  },
 
   FleetandEquipmentStatistics: {
     type: String,

@@ -36,10 +36,18 @@ export default function PrivatePage() {
     <div>
       <h1>Welcome to Route 138 {currentUser}</h1>
 
+<<<<<<< HEAD
       <Navbar />
       <div id="main">
         <div>
           <h2> Welcome to ONRoute 138 – Your Premier Trucking Network!</h2>
+=======
+      {/* 👇 Pass currentUser to Navbar */}
+      <Navbar username={currentUser} />
+      {/* <Navbar /> */}
+      <div>
+        <h2> Welcome to ONRoute 138 – Your Premier Trucking Network!</h2>
+>>>>>>> 7627166b6663367a4506e7474ed0522f29397d9f
 
           <h3>
             At ONRoute 138, we revolutionize how you connect with trucking
