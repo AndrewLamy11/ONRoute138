@@ -8,34 +8,25 @@ export default function NewOrderForm() {
       <Navbar />
       <h3>New Order Form</h3>
       <div className="OrderForm">
-        <label>Starting Location: </label>
+        <label>Location: </label>
         <select name="start" id="start">
-          <option value="montreal">Montreal</option>
-          <option value="cornwall">Cornwall</option>
-          <option value="brockville">Brockville</option>
+          <option value="Markham">Markham</option>
+          <option value="Guelph">Guelph</option>
+          <option value="Vaughan">Vaughan</option>
           <option value="kingston">Kingston</option>
-          <option value="ottawa">Ottawa</option>
-          <option value="toronto">Toronto</option>
+          <option value="Barrie">Barrie</option>
+          <option value="Whitby">Whitby</option>
         </select>
         <br />
-        <label>Ending Location: </label>
-        <select name="end" id="end">
-          <option value="montreal">Montreal</option>
-          <option value="cornwall">Cornwall</option>
-          <option value="brockville">Brockville</option>
-          <option value="kingston">Kingston</option>
-          <option value="ottawa">Ottawa</option>
-          <option value="toronto">Toronto</option>
-        </select>
-        <br />
+
         <label>Type Of Truck: </label>
         <select name="type" id="type">
-          <option value="flatbed">Flatbed Truck</option>
-          <option value="box">Box Truck</option>
-          <option value="refridgerated">Refridgerated Truck</option>
-          <option value="heavy">Heavy Truck</option>
-          <option value="light">Light Truck</option>
-          <option value="tank">Tank Truck</option>
+          <option value="RoadTractors">Road Tractors</option>
+          <option value="Non-poweredUnits">Non Powered Units</option>
+          <option value="StraightTrucks">Straight Trucks</option>
+          <option value="FlatDecks">Flat Decks</option>
+          <option value="TotalPoweredUnits">Total Powered Units</option>
+          <option value="tanks">Tank Truck</option>
         </select>
         <br />
         <label>Amount Of Trucks: </label>

@@ -12,7 +12,10 @@ export default function PrivatePage() {
 
   useEffect(() => {
     const jwtToken = Cookies.get("jwt-authorization");
+    console.log(jwtToken);
     if (jwtToken) {
+      const decodedToken = jwtDecode(jwtToken);
+      console.log("Decoded Token:", decodedToken); // Log the decoded token for debugging
       try {
         const decodedToken = jwtDecode(jwtToken);
         setCurrentUser(decodedToken.id);
@@ -31,31 +34,32 @@ export default function PrivatePage() {
 
   return (
     <div>
-      <h1>Welcome {currentUser}</h1>
-      <h1>Main</h1>
-      <button onClick={handleLogout}>Logout</button>
+      <h1>Welcome to Route 138 {currentUser}</h1>
 
       <Navbar />
       <div>
-        <h1>Hello World</h1>
-        <div className="order-box">
-          <div className="order-box-header">
-            <h1>Order History</h1>
-          </div>
-          <p className="order">
-            Order 1506: 2 Flatbeds:{" "}
-            <a href="#" className="in-progress">
-              IN PROGRESS
-            </a>
-          </p>
-          <br />
-          <p className="order">
-            Order 1505: 3 Flatbeds:{" "}
-            <a href="#" className="complete">
-              COMPLETE
-            </a>
-          </p>
-        </div>
+        <h2> Welcome to ONRoute 138 – Your Premier Trucking Network!</h2>
+
+        <h3>
+          At ONRoute 138, we revolutionize how you connect with trucking
+          companies to meet your transportation needs. Whether you're looking to
+          move a single shipment or manage regular loads, our platform
+          simplifies the process. Search for top-rated trucking companies,
+          compare competitive pricing, and effortlessly find the perfect match
+          for your freight needs. But we don’t stop there—our intuitive platform
+          lets you track and manage your load information with ease, giving you
+          full control over your logistics journey. Our commitment is to provide
+          seamless, reliable, and cost-effective transportation solutions that
+          keep your business on the move. Discover ONRoute 138, where logistics
+          meets innovation.
+        </h3>
+        <p>Join us on the road to better logistics.</p>
+        <img
+          src="./assets/Images/Picture1.png"
+          height="50px"
+          width="200px"
+          alt=""
+        ></img>
       </div>
       <NewOrderButton />
     </div>

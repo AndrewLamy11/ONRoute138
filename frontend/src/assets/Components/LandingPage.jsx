@@ -14,13 +14,18 @@ export default function LandingPage() {
     const jwtToken = Cookies.get("jwt-authorization");
 
     if (jwtToken) {
-      Cookies.remove("jwt-authorization");
+      console.log("JWT Token from cookie on page load:", jwtToken);
     }
   }, []);
 
   //handlers
   const handleCookie = (jwtToken) => {
-    Cookies.set("jwt-authorization", jwtToken);
+    Cookies.set("jwt-authorization", jwtToken, {
+      expires: 7,
+      path: "/",
+      sameSite: "Lax",
+    });
+    console.log("JWT Token set in cookie:", jwtToken);
   };
 
   const handleOnChange = (e) => {
@@ -46,7 +51,10 @@ export default function LandingPage() {
       })
       .then((response) => {
         setPostResponse(response.data.message);
-        if (response.data.message === "User Autenticated ") {
+        if (
+          response.data.message === "User  Authenticated" ||
+          "TruckUser Authenticated"
+        ) {
           handleCookie(response.data.token);
           navigate("/main");
         }

@@ -9,10 +9,13 @@ export default function Navbar() {
         <div className="NavbarItems">
           <ul>
             <li className="NavBarLink">
-              <a href="">Home</a>
+              <a href="/main">Home</a>
             </li>
             <li className="NavBarLink">
-              <a href="">Logout</a>
+              <a href="./">Logout</a>
+            </li>
+            <li className="NavBarLink">
+              <a href="/OrderHistory">Order History</a>
             </li>
           </ul>
         </div>
