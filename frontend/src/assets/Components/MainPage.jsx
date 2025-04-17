@@ -14,8 +14,6 @@ export default function PrivatePage() {
     const jwtToken = Cookies.get("jwt-authorization");
     console.log(jwtToken);
     if (jwtToken) {
-      const decodedToken = jwtDecode(jwtToken);
-      console.log("Decoded Token:", decodedToken); // Log the decoded token for debugging
       try {
         const decodedToken = jwtDecode(jwtToken);
         setCurrentUser(decodedToken.id);
