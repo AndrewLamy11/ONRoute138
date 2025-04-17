@@ -161,7 +161,13 @@ const DB_URI =
   "mongodb+srv://emirmohit17:mohitsingh720@comp1013.pdsgs0v.mongodb.net/route138?retryWrites=true&w=majority&appName=Comp1013";
 JWT_SECRET = "MySuperSecretKey123";
 
-server.use(cors());
+server.use(
+  cors({
+    origin: "http://localhost:5173", // Allow the frontend (React) running on port 5173
+    credentials: true,
+    allowedHeaders: ["Content-Type", "Authorization"], // Allow custom headers // Allow cookies and authorization headers
+  })
+);
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
 
@@ -229,6 +235,7 @@ server.post("/create-TruckUser", async (request, response) => {
 });
 
 server.post("/", async (request, response) => {
+  console.log("🔥 Login request received:", request.body); // ADD THIS
   const { username, password } = request.body;
 
   try {
@@ -241,6 +248,7 @@ server.post("/", async (request, response) => {
         return response.send({
           message: "TruckUser Authenticated",
           token: jwtToken,
+          role: "truckUser",
         });
       } else {
         return response.send({ message: "Incorrect username or password" });
@@ -255,10 +263,12 @@ server.post("/", async (request, response) => {
 
     const isMatch = await bcrypt.compare(password, user.password);
     if (isMatch) {
-      const jwtToken = jwt.sign({ id: username }, JWT_SECRET);
+      const jwtToken = jwt.sign({ id: username, role: "user" }, JWT_SECRET);
+      console.log("✅ Regular user found, generating token...");
       return response.send({
         message: "User  Authenticated",
         token: jwtToken,
+        role: user.role,
       });
     } else {
       return response.send({ message: "Incorrect username or password" });
@@ -290,13 +300,6 @@ server.post("/Results", async (req, res) => {
     res.status(500).send({ message: "Error during truck search." });
   }
 });
-
-server.use(
-  cors({
-    origin: "http://localhost:5173", // Allow the frontend (React) running on port 5173
-    credentials: true, // Allow cookies and authorization headers
-  })
-);
 
 // server.get("/company/:companyName", async (req, res) => {
 //   const companyName = req.params.companyName;
